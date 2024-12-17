@@ -1,4 +1,4 @@
-name: Hello world
+name: Hello World Action
 
 on:
   push:
@@ -12,7 +12,5 @@ jobs:
       - name: Checkout repository content
         uses: actions/checkout@v2
 
-      - name: Print hello world
-        uses: echo "Hello world"
-
-      
+      - name: Print Hello World
+        run: echo "Hello, World!"
